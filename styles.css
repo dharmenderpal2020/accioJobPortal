@@ -1,0 +1,16 @@
+#headr-section{
+    display: flex;
+width: 1439.981px;
+padding: 15px 108px;
+justify-content: space-between;
+align-items: right;
+}
+h3{
+    color: #012555;
+font-family: Bai Jamjuree;
+font-size: 21.714px;
+font-style: normal;
+font-weight: 600;
+line-height: 38px; /* 175% */
+}
+
