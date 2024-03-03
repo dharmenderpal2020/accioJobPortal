@@ -1,16 +1,123 @@
-#headr-section{
-    display: flex;
-width: 1439.981px;
-padding: 15px 108px;
-justify-content: space-between;
-align-items: right;
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
 }
-h3{
-    color: #012555;
-font-family: Bai Jamjuree;
-font-size: 21.714px;
-font-style: normal;
-font-weight: 600;
-line-height: 38px; /* 175% */
+
+.navbar{
+    position: sticky;
+    top: 0px;
+}
+
+.nav_links{
+    margin-left: 20%;
+}
+.nav_links>a{
+    text-decoration: none;
+    color: #4f4f4f;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#dashboard{
+    background-color: white;
+    border: none;
+    color: #2e80ec;
+    font-size: 15px;
+    border: 2px solid #2e80ec;
+    font-weight: 900;
+    min-width: 100px;
+    height: 40px;
+    padding:8px;
+    border-radius: 7px;
+
+}
+
+
+
+
+#banner{
+    width: 100vw;
+    color: white;
+    background-color: #2e80ec;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 10px;
+}
+
+.card-1{
+    width:60%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-image:url(https://acciojob.com/_next/static/media/purple_arraow.e16eb7db.svg);
+    background-position: 100%  33%;
+    background-repeat: no-repeat;
+    background-size: 15%;
+
+}
+
+
+
+
+#heading-1{
+    font-family: satoshi, sans-serif;
+    width: 100%;
+    font-weight: 700;
+    font-size: 50px;
+    color:#3081ed;
+    }
+
+.heading{
+    position: relative;
+    width: 85%;
+    font-family: satoshi, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #2b2f34;
+}
+
+
+.subheading{
+    font-family: Satoshi, sans-serif;
+    color:#3081ed;
+    text-transform: uppercase;
+   font-weight: 500;
+    font-size: 0.75em;
+    margin-left:20px;
+}
+
+.achievements{
+    width: 88%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 2px 40px rgba(0,0,0,.08);
+    border-radius: 8px;
+    padding: 10px;
+}
+.achievements-1{
+    display: inline-block;
+    position:relative;
+    margin-bottom:5px;
+    padding:5px;
+    align-items: center;
+}
+.sub-ach{
+    padding-left:20px; 
+    margin-left:20px;
 }
 
